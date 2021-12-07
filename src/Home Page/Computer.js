@@ -1,35 +1,40 @@
 import linkedinImage from './Icons/linkedin-white-logo.png'
 import githubImage from './Icons/GitHub-Mark-Light-64px.png'
+import arrow from './Icons/Arrow.svg'
 import {useEffect, useState} from "react";
 
 
 function Computer(){
-    const [linkedinClass, setLinkedinClass] = useState('linkedin-power-on');
-    const [githubClass, setGithubClass] = useState('github-power-on');
-    const [powerOn, setPowerOn] = useState(false);
+    const [linkedinClass, setLinkedinClass] = useState('linkedin-power-off');
+    const [githubClass, setGithubClass] = useState('github-power-off');
+    const [powerOff, setPowerOff] = useState(true);
 
     useEffect(() => {
-        if(powerOn){
+        if(powerOff){
             setLinkedinClass("linkedin-power-off");
             setGithubClass("github-power-off");
         } else{
             setLinkedinClass('linkedin-power-on');
             setGithubClass("github-power-on");
         }
-    }, [powerOn]);
+    }, [powerOff]);
 
 
     const handleClick = () => {
-        if(powerOn === false)
-            setPowerOn(true);
+        if(powerOff === false)
+            setPowerOff(true);
         else
-            setPowerOn(false);
+            setPowerOff(false);
     }
 
 
 
     return(
         <div className="computer-box" >
+            <div className="click-me">
+                click me!
+                <img src={arrow} className="click-me-arrow"/>
+            </div>
             <button className="power" onClick={handleClick} > </button>
             <a href={"https://www.linkedin.com/in/sim%C3%B3n-stein-a02408212/"} target={"_blank"} rel={"noreferrer"}>
                 <img alt={"Linkedin Logo"} className={linkedinClass} src={linkedinImage}/>

@@ -2,21 +2,6 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-
-.square-container{
-    display: grid;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 0; right: 0;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    max-height: 400px;
-    min-height: 50%;
-    margin: auto;
-    padding: 50px;
-}
-
 body{
     background: #0F111A;
 }
@@ -70,6 +55,23 @@ body{
     position: absolute;
     right: 12.25vw;
     top: 5vw;
+}
+
+.click-me{
+    font-family: 'Fuzzy Bubbles', cursive;
+    transform: rotateZ(5deg);
+    position: absolute;
+    bottom: 5vw;
+    right: -10vw;
+    font-size: 1.5vw;
+}
+
+.click-me-arrow{
+    position: absolute;
+    transform: scaleX(-1);
+    left: -2vw;
+    bottom: -4vw;
+
 }
 
 .power{
@@ -190,6 +192,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .react-logo{
     width: 9vw;
     transform: scale(1.5);
@@ -222,15 +225,47 @@ body{
     border-color: #eeffff;
     border-width: 0.5vw;
 
+
     display: grid;
     grid-template-columns: 1fr 2fr;
 
 
 }
 
+.left-last-shelf{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.left-sub-shelf{
+    border-bottom-style: solid;
+    overflow: hidden;
+
+}
+
+.nosferatu-text{
+    font-family: 'Creepster', cursive;
+    position: absolute;
+    font-size: 4vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    color: rgba(100%, 100%, 100%, 0.9);
+}
+.nosferatu-text:hover{
+    cursor: pointer;
+}
+
+.nosferatu-image{
+    width: 100%;
+    height: 100%;
+}
+
+.nosferatu-image:hover{
+    cursor: pointer;
+}
+
 .cv-image{
     transform: scale(0.8);
-    top: -3.5vw;
 
     transition: transform 1s ease;
 }
@@ -242,37 +277,48 @@ body{
 }
 
 .download-resume{
-}
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding-left: 2vw;
+    padding-top: 3vw;
+    transform: rotateZ(-20deg);
 
-.book{
-    position: absolute;
-    width: 15vw;
-    height: 4vw;
-    background: #c6d2d2;
-    top: 1.5vw;
-    left: 1.5vw;
-
-
-    color: #0F111A;
-
+    font-size: 2vw;
 
 }
 
-.book-title{
+.cv-arrow{
     position: absolute;
-    left: 5vw;
-    font-size: 3vw;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    top: -0.25vw;
+    bottom: 2vw;
+    left: 0;
+}
+/*
+might use it later
+.phone-container{
+    width: 10vw;
+    height: 12vw;
+    background: red;
+    position: absolute;
+    left: 15vw;
+    top: 22.75vw;
+}
+*/
+
+.contact{
+    font-family: 'Fuzzy Bubbles', cursive;
+    position: absolute;
+    left: 4vw;
+    top: 23vw;
+    font-size: 1.5vw;
+
+    transform: rotateZ(-20deg);
+
 }
 
-.download-icon{
-    width: 3.5vw;
+.contact-arrow{
+    transform: scale(0.8) rotateZ(15deg);
     position: absolute;
-    left: 0.5vw;
-    top: 0.25vw;
-
+    top: 2vw;
+    left: 0;
 }
 
 
@@ -310,11 +356,7 @@ body{
     height: 5vw;
     border-radius: 50%;
     background: #eeffff;
-
-
     transition: all 1s ease;
-
-
 }
 
 ion-icon{
@@ -323,8 +365,6 @@ ion-icon{
     color: #eeffff;
 
 }
-
-
 
 .phone-support{
     width: 8.5vw;
@@ -335,143 +375,8 @@ ion-icon{
     top: 31.9vw;
 }
 
-
-
-
-.title{
-    position: absolute;
-    display: block;
-    top: -100px;
-    padding: 3%;
-    text-align: center;
-    font-size: 6rem;
-    color: #eeffff;
-    height: 30%;
-
-    left: 0;
-}
-
 .cursor{
     background: #ffcb6b;
-}
-
-.square-div{
-    font-size: 150%;
-    color: #c3e88d;
-    transition: all 1.5s ease;
-    margin: auto;
-}
-
-
-
-.center{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-    height: 65%;
-    width: 55%;
-
-    border-radius: 10px;
-
-    box-shadow: 1px 1px 2px 2px #eeffff;
-
-    transition: all 1.5s ease;
-    display: grid;
-}
-
-.center-clicked{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-
-
-    transform: translateY(200%) ;
-    height: 65%;
-
-    width: 55%;
-
-    border-radius: 10px;
-    transition: all 1s ;
-    box-shadow: 1px 1px 2px 2px #eeffff;
-    display: grid;
-}
-
-.square:hover{
-    background: #090B10;
-    cursor: pointer;
-}
-
-.first{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-    height: 65%;
-    width: 55%;
-
-    border-radius: 10px;
-
-    box-shadow: 1px 1px 2px 2px #eeffff;
-
-    transition: all 1.5s ease;
-    display: flex;
-}
-
-.first-when-center-clicked{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-    height: 65%;
-    width: 55%;
-
-    border-radius: 10px;
-
-    box-shadow: 1px 1px 2px 2px #eeffff;
-
-    transition: all 1.5s ease;
-    display: flex;
-    transform: translateX(-200%);
-}
-
-.final{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-    height: 65%;
-    width: 55%;
-
-    border-radius: 10px;
-
-    box-shadow: 1px 1px 2px 2px #eeffff;
-
-    transition: all 1.5s ease;
-    display: grid;
-}
-
-.final-when-center-clicked{
-    grid-row-gap: 10px;
-    margin: auto;
-    min-height: 225px;
-    min-width: 225px;
-    height: 65%;
-    width: 55%;
-
-    border-radius: 10px;
-
-    box-shadow: 1px 1px 2px 2px #eeffff;
-
-    transition: all 1.5s ease;
-    transform: translateX(200%);
-    display: grid;
-
-}
-
-.code-symbol{
-    color: #82aaff;
 }
 
 .code-operator{
@@ -497,8 +402,3 @@ ion-icon{
 
 
 /*Animation*/
-
-/*BUTTON ANIMATIONS*/
-
-@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
-

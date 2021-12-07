@@ -1,3 +1,4 @@
+import arrow from './Home Page/Icons/Arrow.svg'
 import {useState} from "react";
 
 function Phone(){
@@ -7,6 +8,10 @@ function Phone(){
 
     return(
         <div>
+            <div className="contact">
+                contact me!
+                <img src={arrow} className="contact-arrow"/>
+            </div>
             <div className="phone-support">
             </div>
             <a href={"https://wa.me/5491158056691?text=I%20saw%20your%20portfolio%20and%20I%20want%20to%20get%20in%20touch"} target={"_blank"} rel={"noreferrer"}>
