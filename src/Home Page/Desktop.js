@@ -10,7 +10,7 @@ function Desktop (){
 
 
     return(
-      <div className="home">
+      <div className="desktop">
           <Code/>
           <img alt={"Simon Coding"} className="coding-image" src={codingImage}/>
           <Computer/>
