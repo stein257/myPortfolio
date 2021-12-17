@@ -243,6 +243,8 @@ body{
 
 }
 
+
+
 .nosferatu-text{
     font-family: 'Creepster', cursive;
     position: absolute;
@@ -260,8 +262,12 @@ body{
     height: 100%;
 }
 
-.nosferatu-image:hover{
-    cursor: pointer;
+
+
+.left-second-sub-shelf {
+    background: #212536;
+    overflow: hidden;
+
 }
 
 .cv-image{

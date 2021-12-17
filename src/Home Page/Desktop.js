@@ -2,11 +2,11 @@ import codingImage from './Coding (1).svg';
 
 import Computer from "./Computer";
 import Code from "./Code";
-import LeftDrawer from "../LeftDrawer";
-import RightDrawer from "../RightDrawer";
-import Phone from "../Phone";
+import LeftDrawer from "./LeftDrawer";
+import RightDrawer from "./RightDrawer";
+import Phone from "./Phone";
 
-function HomePage (){
+function Desktop (){
 
 
     return(
@@ -21,4 +21,4 @@ function HomePage (){
     );
 };
 
-export default HomePage;
+export default Desktop;

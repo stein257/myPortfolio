@@ -1,4 +1,4 @@
-import arrow from './Home Page/Icons/Arrow.svg'
+import arrow from './Icons/Arrow.svg'
 import {useState} from "react";
 
 function Phone(){
@@ -10,7 +10,7 @@ function Phone(){
         <div>
             <div className="contact">
                 contact me!
-                <img src={arrow} className="contact-arrow"/>
+                <img alt={"Contact me Arrow"} src={arrow} className="contact-arrow"/>
             </div>
             <div className="phone-support">
             </div>
