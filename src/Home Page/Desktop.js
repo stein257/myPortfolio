@@ -1,4 +1,4 @@
-import codingImage from './Coding (1).svg';
+import codingImage from './Icons/Coding (1).svg';
 
 import Computer from "./Computer";
 import Code from "./Code";
