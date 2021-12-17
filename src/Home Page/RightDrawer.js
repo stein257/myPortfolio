@@ -11,16 +11,16 @@ function RightDrawer(){
     return(
         <div className="drawer-right">
             <div className="shelf">
-                <img alt={"Python Logo"} src={pythonLogo} className="python-logo logo"/>
-                <img alt={"C++ Logo"} src={cplusplusLogo} className="react-logo logo"/>
+                <a href={"https://www.python.org"} target={"_blank"} rel={"noreferrer"}><img alt={"Python Logo"} src={pythonLogo} className="python-logo logo"/></a>
+                <a href={"https://www.cplusplus.com/"} target={"_blank"} rel={"noreferrer"}><img alt={"C++ Logo"} src={cplusplusLogo} className="react-logo logo"/></a>
             </div>
             <div className="shelf">
-                <img alt={"Javascript Logo"} src={jsLogo} className="python-logo logo"/>
-                <img alt={"React Logo"} src={reactLogo} className="react-logo logo"/>
+                <a href={"https://www.javascript.com/"} target={"_blank"} rel={"noreferrer"}><img alt={"Javascript Logo"} src={jsLogo} className="python-logo logo"/></a>
+                <a href={"https://reactjs.org/"} target={"_blank"} rel={"noreferrer"}><img alt={"React Logo"} src={reactLogo} className="react-logo logo"/></a>
             </div>
             <div className="last-shelf ">
-                <img alt={"HTML Logo"} src={htmlLogo} className="html-logo logo"/>
-                <img alt={"CSS Logo"} src={cssLogo} className="python-logo logo"/>
+                <a href={"https://developer.mozilla.org/en-US/docs/Web/HTML"} target={"_blank"} rel={"noreferrer"}> <img alt={"HTML Logo"} src={htmlLogo} className="html-logo logo"/></a>
+                <a href={"https://developer.mozilla.org/en-US/docs/Web/CSS"} target={"_blank"} rel={"noreferrer"}><img alt={"CSS Logo"} src={cssLogo} className="python-logo logo"/></a>
             </div>
         </div>
     );

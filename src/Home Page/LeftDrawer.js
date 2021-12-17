@@ -2,6 +2,12 @@ import arrow from './Icons/Arrow.svg'
 import cvImage from './Icons/CV.svg'
 import nosferatu from './Icons/Nosferatu.png'
 import resume from './Resume/Simon Stein - Resume.pdf'
+import SwipeableViews from 'react-swipeable-views';
+import { autoPlay } from 'react-swipeable-views-utils';
+import desktopImage from './Icons/desktop.gif'
+
+
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 function LeftDrawer(){
 
@@ -24,17 +30,23 @@ function LeftDrawer(){
                     <img alt={"My projects Arrow"} src={arrow} className={"projects-arrow"}/>
                 </div>
                 <div className="left-sub-shelf">
-                    <a href={"https://github.com/stein257/NosferatuGame"} target={"_blank"} rel={"noreferrer"}>
-                        <span className="nosferatu-text">NOSFERATU</span>
-                        <img alt={"NosferatuGame"} src={nosferatu} className="nosferatu-image"/>
-                    </a>
+                    <AutoPlaySwipeableViews interval={6000}>
+                        <div className="project-container">
+                            <a href={"https://github.com/stein257/NosferatuGame"} target={"_blank"} rel={"noreferrer"}>
+                                <span className="nosferatu-text">NOSFERATU</span>
+                                <img alt={"NosferatuGame"} src={nosferatu} className="nosferatu-image"/>
+                            </a>
+                        </div>
+                        <div className="portfolio-project">
+                            <a href={"https://github.com/stein257/myPortfolio"} target={"_blank"} rel={"noreferrer"}>
+                                <span className="portfolio-text">MY PORTFOLIO</span>
+                                <img alt={"Desktop"} src={desktopImage} className="nosferatu-image"/>
+                            </a>
+                        </div>
+                    </AutoPlaySwipeableViews>
                 </div>
-                <div className='left-second-sub-shelf'>
 
-                </div>
-                <div className='left-second-sub-shelf'>
 
-                </div>
             </div>
         </div>
     );

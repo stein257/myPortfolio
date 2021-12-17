@@ -233,16 +233,13 @@ body{
 }
 
 .left-last-shelf{
-    display: grid;
-    grid-template-rows: 50% 50%;
+
 }
 
 .left-sub-shelf{
-    border-bottom-style: solid;
-    overflow: hidden;
+
 
 }
-
 
 
 .nosferatu-text{
@@ -250,7 +247,7 @@ body{
     position: absolute;
     font-size: 4vw;
     padding-left: 1vw;
-    padding-top: 1vw;
+    padding-top: 4vw;
     color: rgba(100%, 100%, 100%, 0.9);
 }
 .nosferatu-text:hover{
@@ -259,9 +256,23 @@ body{
 
 .nosferatu-image{
     width: 100%;
-    height: 100%;
+    height: 14.25vw;
 }
 
+.portfolio-text{
+    position: absolute;
+    font-size: 2.25vw;
+
+    width: 100%;
+    color: #eeffff;
+    padding-top: 5vw;
+    padding-left: 1vw;
+
+}
+
+.portfolio-project{
+
+}
 
 
 .left-second-sub-shelf {
@@ -393,7 +404,9 @@ ion-icon{
 }
 
 .cursor{
-    background: #ffcb6b;
+    color: #ffcb6b !important;
+    font-style: normal;
+
 }
 
 .code-operator{
@@ -417,5 +430,3 @@ ion-icon{
     color: #eeffff;
 }
 
-
-/*Animation*/

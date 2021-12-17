@@ -4,7 +4,7 @@ function Code(){
 
 
     return(
-        <Typing speed={150} cursorClassName="cursor" loop={true} >
+        <Typing speed={150}  cursorClassName="cursor" loop={true} >
             <p className="home-first-line">
                 <span className="code-keyword">{"int "}</span>
                 <span className="code-function">{"main"}</span>
