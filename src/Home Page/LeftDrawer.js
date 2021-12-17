@@ -19,11 +19,18 @@ function LeftDrawer(){
                 </a>
             </div>
             <div className="left-last-shelf">
+                <div className="my-projects">
+                    my projects
+                    <img alt={"My projects Arrow"} src={arrow} className={"projects-arrow"}/>
+                </div>
                 <div className="left-sub-shelf">
                     <a href={"https://github.com/stein257/NosferatuGame"} target={"_blank"} rel={"noreferrer"}>
                         <span className="nosferatu-text">NOSFERATU</span>
                         <img alt={"NosferatuGame"} src={nosferatu} className="nosferatu-image"/>
                     </a>
+                </div>
+                <div className='left-second-sub-shelf'>
+
                 </div>
                 <div className='left-second-sub-shelf'>
 

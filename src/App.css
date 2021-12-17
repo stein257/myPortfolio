@@ -297,6 +297,17 @@ body{
     bottom: 2vw;
     left: 0;
 }
+
+.my-projects{
+    position: absolute;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 1.5vw;
+    left: -8vw;
+    top: 18vw;
+    width: 8vw;
+    transform: rotateZ(-10deg);
+}
+
 /*
 might use it later
 .phone-container{
