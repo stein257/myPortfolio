@@ -19,6 +19,6 @@ function Desktop (){
           <RightDrawer/>
       </div>
     );
-};
+}
 
 export default Desktop;

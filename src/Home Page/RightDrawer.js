@@ -1,7 +1,7 @@
 import pythonLogo from "./Icons/python-package-index-svgrepo-com.svg";
 import cplusplusLogo from "./Icons/C++-Logo.wine.svg";
 import jsLogo from "./Icons/1024px-Unofficial_JavaScript_logo_2.svg.png";
-import reactLogo from "../logo.svg";
+import reactLogo from "./Icons/logo.svg";
 import htmlLogo from "./Icons/html.png";
 import cssLogo from "./Icons/css.png";
 
