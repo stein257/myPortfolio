@@ -1,5 +1,6 @@
 import codingImage from './Icons/Coding (1).svg';
 
+
 import Computer from "./Computer";
 import Code from "./Code";
 import LeftDrawer from "./LeftDrawer";
@@ -17,6 +18,8 @@ function Desktop (){
           <Phone/>
           <LeftDrawer/>
           <RightDrawer/>
+          <div className="rotate-your-phone">
+          </div>
       </div>
     );
 }

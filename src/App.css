@@ -26,7 +26,6 @@ body{
     padding-left: 5%;
     padding-top: 6%;
     width: 100%;
-    min-height: 70vw;
 }
 
 
@@ -468,6 +467,14 @@ ion-icon{
         left: 14vw;
         top: 32.25vw;
     }
+
+    .rotate-your-phone{
+        position: absolute;
+        width: 90%;
+        height: 75vw;
+        background: red;
+        right: 5%;
+    }
 }
 
 @media (max-height: 600px) {
@@ -503,5 +510,8 @@ ion-icon{
         align-items: center;
 
     }
+
+
+
     
 }
