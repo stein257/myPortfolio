@@ -6,6 +6,7 @@ import Code from "./Code";
 import LeftDrawer from "./LeftDrawer";
 import RightDrawer from "./RightDrawer";
 import Phone from "./Phone";
+import RotationMessage from "./RotationMessage";
 
 function Desktop (){
 
@@ -18,8 +19,7 @@ function Desktop (){
           <Phone/>
           <LeftDrawer/>
           <RightDrawer/>
-          <div className="rotate-your-phone">
-          </div>
+          <RotationMessage/>
       </div>
     );
 }

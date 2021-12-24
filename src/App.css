@@ -447,6 +447,14 @@ ion-icon{
     color: #eeffff;
 }
 
+.rotate-your-phone{
+    position: absolute;
+    width: 100%;
+    height: 75vw;
+    background: #0F111A;
+    display: none;
+}
+
 @media (max-width: 500px) {
     .desktop{
         color: #eeffff;
@@ -470,10 +478,41 @@ ion-icon{
 
     .rotate-your-phone{
         position: absolute;
-        width: 90%;
+        width: 100%;
         height: 75vw;
-        background: red;
-        right: 5%;
+        background: #0F111A;
+        display: block;
+    }
+
+    .phone-rotation{
+        width: 50%;
+        height: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-style: solid;
+        border-color: #eeffff;
+        border-width: 1vw;
+        border-radius: 2vw;
+        transition: all 1.5s ease;
+    }
+
+    .rotate-message-first-line{
+        position: absolute;
+        transform:  translateY(-15vw);
+        text-align: center;
+        width: 100%;
+        font-family: 'Rubik Mono One', sans-serif;
+        transition: all 1.5s ease;
+
+    }
+
+    .rotate-message-second-line{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-family: 'Rubik Mono One', sans-serif;
+        transition: all 1.5s ease;
+
     }
 }
 
@@ -512,6 +551,41 @@ ion-icon{
     }
 
 
+    ion-icon{
+        transform: scale(1) !important;
+    }
 
-    
+    .phone:hover{
+        transform: translateY(0);
+        cursor: pointer;
+    }
+
+    .phone{
+        width: 6vw;
+        height: 10vw;
+        background: #0F111A;
+
+        border-style: solid;
+        border-width: 0.25vw;
+        border-radius: 0.5vw;
+        border-color: #c6d2d2;
+
+        position: absolute;
+        left: 15vw;
+        top: 22.75vw;
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cv-image:hover{
+        transform: scale(0.8);
+
+    }
+
 }
