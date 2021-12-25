@@ -10,8 +10,6 @@ body{
     color: #eeffff;
 }
 
-
-
 .code-container{
     position: absolute;
     width: 40vw;
@@ -27,10 +25,6 @@ body{
     padding-top: 6%;
     width: 100%;
 }
-
-
-
-
 
 .code-first-line{
     margin: 0;
@@ -88,7 +82,6 @@ body{
     transform: scaleX(-1) ;
     left: -2vw;
     bottom: 0.5vw;
-
 }
 
 .power{
@@ -118,7 +111,6 @@ body{
 
     top: 3vw;
     transition: transform 0.5s ease;
-
 }
 
 .linkedin-power-on:hover{
@@ -177,11 +169,7 @@ body{
     border-width: 0.5vw;
 
     display: grid;
-
     grid-template-rows: 1fr 1fr;
-
-
-
 }
 
 .drawer-right{
@@ -216,6 +204,7 @@ body{
     padding-top: 1.5vw;
     transition: transform 0.5s ease;
 }
+
 .python-logo{
     padding-left: 1.5vw;
     width: 5vw;
@@ -242,21 +231,11 @@ body{
     border-color: #eeffff;
     border-width: 0.5vw;
 
-
     display: grid;
     grid-template-columns: 1fr 2fr;
-
-
 }
 
-.left-last-shelf{
 
-}
-
-.left-sub-shelf{
-
-
-}
 
 
 .nosferatu-text{
@@ -267,6 +246,7 @@ body{
     padding-top: 4vw;
     color: rgba(100%, 100%, 100%, 0.9);
 }
+
 .nosferatu-text:hover{
     cursor: pointer;
 }
@@ -286,11 +266,6 @@ body{
     padding-left: 1vw;
 
 }
-
-.portfolio-project{
-
-}
-
 
 .left-second-sub-shelf {
     background: #212536;
@@ -335,18 +310,6 @@ body{
     width: 8vw;
     transform: rotateZ(-10deg);
 }
-
-/*
-might use it later
-.phone-container{
-    width: 10vw;
-    height: 12vw;
-    background: red;
-    position: absolute;
-    left: 15vw;
-    top: 22.75vw;
-}
-*/
 
 .contact{
     font-family: 'Fuzzy Bubbles', cursive;
