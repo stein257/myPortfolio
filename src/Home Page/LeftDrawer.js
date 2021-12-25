@@ -1,7 +1,7 @@
 import arrow from './Icons/Arrow.svg'
 import cvImage from './Icons/CV.svg'
 import nosferatu from './Icons/Nosferatu.png'
-import resume from './Resume/Simon Stein - Resume.pdf'
+import resume from './Resume/Simon Stein Resume.pdf'
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import desktopImage from './Icons/desktop.gif'
