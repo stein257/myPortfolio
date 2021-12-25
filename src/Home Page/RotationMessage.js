@@ -14,7 +14,7 @@ function RotationMessage(){
             setPhoneRotation(-90);
             setFirstLineTranslateY(1);
             setSecondLineTranslateY(-14);
-        }, 3000);
+        }, 1000);
     }, []);
 
 
