@@ -36,7 +36,7 @@ function Computer(){
                 <img alt={"Click me Arrow"} src={arrow} className="click-me-arrow"/>
             </div>
             <button className="power" onClick={handleClick} > </button>
-            <a href={"https://www.linkedin.com/in/sim%C3%B3n-stein-a02408212/"} target={"_blank"} rel={"noreferrer"}>
+            <a href={"https://www.linkedin.com/in/sim%C3%B3n-stein/"} target={"_blank"} rel={"noreferrer"}>
                 <img alt={"Linkedin Logo"} className={linkedinClass} src={linkedinImage}/>
             </a>
             <a href={"https://github.com/stein257"} target={"_blank"} rel={"noreferrer"}>
