@@ -1,8 +1,12 @@
 # Simon Stein's Portfolio
 
-Welcome to my personal portfolio project
+Welcome to my personal portfolio project.
 
-## Available Scripts
+## Visit my portfolio!
+
+https://simon-desktop.herokuapp.com/ :)
+
+## Run it locally!
 
 In the project directory, you can run:
 
