@@ -20,13 +20,7 @@ function Computer(){
     }, [powerOff]);
 
 
-    const handleClick = () => {
-        if(powerOff === false)
-            setPowerOff(true);
-        else
-            setPowerOff(false);
-    }
-
+    const handleClick = () => {setPowerOff(!powerOff);}
 
 
     return(
