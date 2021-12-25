@@ -1,4 +1,4 @@
-import codingImage from "./Icons/Coding (1).svg";
+import codingImage from "../Icons/Coding (1).svg";
 
 function Coder(){
 

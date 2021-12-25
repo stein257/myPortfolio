@@ -1,6 +1,6 @@
-import linkedinImage from './Icons/linkedin-white-logo.png'
-import githubImage from './Icons/GitHub-Mark-Light-64px.png'
-import arrow from './Icons/Arrow.svg'
+import linkedinImage from '../Icons/linkedin-white-logo.png'
+import githubImage from '../Icons/GitHub-Mark-Light-64px.png'
+import arrow from '../Icons/Arrow.svg'
 import {useEffect, useState} from "react";
 
 

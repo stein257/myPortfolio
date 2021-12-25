@@ -1,5 +1,5 @@
 import './App.css';
-import Desktop from "./Home Page/Desktop";
+import Desktop from "./Home Page/Components/Desktop";
 
 function App() {
 

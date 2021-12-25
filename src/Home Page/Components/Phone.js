@@ -1,4 +1,4 @@
-import arrow from './Icons/Arrow.svg'
+import arrow from '../Icons/Arrow.svg'
 import {useState} from "react";
 
 function Phone(){
