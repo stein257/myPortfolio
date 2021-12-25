@@ -1,12 +1,10 @@
-import codingImage from './Icons/Coding (1).svg';
-
-
 import Computer from "./Computer";
 import Code from "./Code";
 import LeftDrawer from "./LeftDrawer";
 import RightDrawer from "./RightDrawer";
 import Phone from "./Phone";
 import RotationMessage from "./RotationMessage";
+import Coder from "./Coder";
 
 function Desktop (){
 
@@ -14,7 +12,7 @@ function Desktop (){
     return(
       <div className="desktop">
           <Code/>
-          <img alt={"Simon Coding"} className="coding-image" src={codingImage}/>
+          <Coder/>
           <Computer/>
           <Phone/>
           <LeftDrawer/>
