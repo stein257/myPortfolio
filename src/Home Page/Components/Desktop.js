@@ -11,8 +11,8 @@ function Desktop (){
 
     return(
       <div className="desktop">
-          <Code/>
           <Coder/>
+          <Code/>
           <Computer/>
           <Phone/>
           <LeftDrawer/>
