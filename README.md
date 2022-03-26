@@ -4,7 +4,7 @@ Welcome to my personal portfolio project.
 
 ## Visit my portfolio!
 
-https://simon-desktop.herokuapp.com/ :)
+https://thesimondesktop.web.app/ :)
 
 ## Run it locally!
 
