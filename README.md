@@ -1,4 +1,4 @@
-# Simon Stein's Portfolio
+# Simon Stein's Portfolio :)
 
 Welcome to my personal portfolio project.
 
