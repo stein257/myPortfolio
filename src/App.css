@@ -2,6 +2,18 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eeffff;
+}
+
 body{
     background: #0F111A;
 }
@@ -342,7 +354,7 @@ body{
 
     position: absolute;
     left: 15vw;
-    top: 22.75vw;
+    top: 23.05vw;
 
     transition: transform 1s ease;
 
@@ -380,7 +392,7 @@ ion-icon{
     background: #eeffff;
     position: absolute;
     left: 14vw;
-    top: 31.9vw;
+    top: 32.1vw;
 }
 
 .cursor{
