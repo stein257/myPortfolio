@@ -2,6 +2,18 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eeffff;
+}
+
 body{
     background: #0F111A;
 }
