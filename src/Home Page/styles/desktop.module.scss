@@ -1,0 +1,8 @@
+.desktop{
+  color: #eeffff;
+
+  @media (max-width: 500px) {
+    transform: translateY(50vw);
+    margin: auto;
+  }
+}

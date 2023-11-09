@@ -1,0 +1,53 @@
+.drawer-right{
+  position: absolute;
+  width: 18vw;
+  height: 30vw;
+  right: 9vw;
+  top: 38vw;
+  border-style: solid;
+  border-color: #eeffff;
+  border-width: 0.5vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  .shelf{
+    border-bottom-style: solid;
+    border-color: #eeffff;
+    border-width: 0.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .last-shelf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .react-logo{
+    width: 9vw;
+    transform: scale(1.5);
+    padding-top: 1.5vw;
+    transition: transform 0.5s ease;
+  }
+
+  .python-logo{
+    padding-left: 1.5vw;
+    width: 5vw;
+    transform: scale(1.5);
+    padding-top: 1.8vw;
+    transition: transform 0.5s ease;
+  }
+
+  .html-logo{
+    padding-left: 1.5vw;
+    width: 5vw;
+    transform: scale(1.5);
+    padding-top: 2vw;
+    transition: transform 0.5s ease;
+  }
+
+  .logo:hover{
+    transform: scale(1.7);
+    cursor: pointer;
+  }
+}

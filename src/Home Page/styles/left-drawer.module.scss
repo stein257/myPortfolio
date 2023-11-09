@@ -1,0 +1,89 @@
+.drawer-left{
+  position: absolute;
+  width: 18vw;
+  height: 30vw;
+  left: 9vw;
+  top: 38vw;
+  border-style: solid;
+  border-color: #eeffff;
+  border-width: 0.5vw;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  .left-shelf{
+    border-bottom-style: solid;
+    border-color: #eeffff;
+    border-width: 0.5vw;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .cv-image{
+      transform: scale(0.8);
+      transition: transform 1s ease;
+    }
+
+    .cv-image:hover{
+      cursor: pointer;
+      transform: scale(0.9);
+
+      @media (max-height: 600px) {
+        transform: scale(0.8);
+      }
+    }
+
+    .download-resume{
+      font-family: 'Fuzzy Bubbles', cursive;
+      padding-left: 2vw;
+      padding-top: 3vw;
+      transform: rotateZ(-20deg);
+      font-size: 2vw;
+    }
+
+    .cv-arrow{
+      position: absolute;
+      bottom: 2vw;
+      left: 0;
+    }
+  }
+
+  .my-projects{
+    position: absolute;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 1.5vw;
+    left: -8vw;
+    top: 18vw;
+    width: 8vw;
+    transform: rotateZ(-10deg);
+  }
+
+  .nosferatu-text{
+    font-family: 'Creepster', cursive;
+    position: absolute;
+    font-size: 4vw;
+    padding-left: 1vw;
+    padding-top: 4vw;
+    color: rgba(100%, 100%, 100%, 0.9);
+  }
+
+  .project-image{
+    width: 100%;
+    height: 14.25vw;
+
+    @media (max-width: 500px) {
+      width: 100%;
+      height: 13.5vw;
+    }
+  }
+
+  .portfolio-text{
+    position: absolute;
+    font-size: 2.25vw;
+
+    width: 100%;
+    color: #eeffff;
+    padding-top: 5vw;
+    padding-left: 1vw;
+  }
+}

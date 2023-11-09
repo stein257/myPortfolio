@@ -1,0 +1,97 @@
+.computer-box{
+  width: 11vw;
+  height: 28vw;
+  position: absolute;
+  right: 12.25vw;
+  top: 5vw;
+
+  .click-me{
+    font-family: 'Fuzzy Bubbles', cursive;
+    transform: rotateZ(5deg);
+    position: relative;
+    bottom: -21vw;
+    right: -14vw;
+    font-size: 1.5vw;
+    width: 8vw;
+
+    .click-me-arrow{
+      position: relative;
+      transform: scaleX(-1) ;
+      left: -2vw;
+      bottom: 0.5vw;
+    }
+  }
+
+  .power{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background: #eeffff;
+    border-radius: 50%;
+    border: none;
+
+    right: 3.25vw;
+    top: 22vw;
+    transition: transform 0.5s ease;
+  }
+
+  .power:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .linkedin-power-on{
+    position: absolute;
+    width: 4vw;
+    border-radius: 50%;
+    height: 4vw;
+    right: 3.25vw;
+
+    top: 3vw;
+    transition: transform 0.5s ease;
+  }
+
+  .linkedin-power-on:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .linkedin-power-off{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    right: 3.25vw;
+
+    top: 3vw;
+    transition: transform 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    transform: scaleY(0);
+  }
+
+
+  .github-power-on{
+    position: absolute;
+    width: 4vw;
+    border-radius: 50%;
+    height: 4vw;
+    right: 3.25vw;
+
+    top: 12.5vw;
+    transition: transform 0.5s ease;
+  }
+
+  .github-power-on:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .github-power-off{
+    position: absolute;
+    width: 4vw;
+    border-radius: 50%;
+    height: 4vw;
+    right: 3.25vw;
+    top: 12.5vw;
+    transition: transform 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    transform: scaleY(0);
+  }
+}
